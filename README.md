@@ -13,7 +13,7 @@ This is a simple QR Code Generator built with React. The application allows user
 [https://qr-code-generator-k7ln.onrender.com/]
 
 ## File Structure:
-  
+
 qr-code-generator/
 │
 ├── public/
