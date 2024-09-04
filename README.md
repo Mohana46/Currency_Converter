@@ -26,10 +26,11 @@ This is a simple QR Code Generator built with React. The application allows user
    npm install
 
 3. **Start the development server:**
-  ```bash
-  npm start
+    ```bash
+    npm start
 
 4. **File Structure:**
+   ```bash
 qr-code-generator/
 │
 ├── public/
