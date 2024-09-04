@@ -10,7 +10,25 @@ This is a simple QR Code Generator built with React. The application allows user
 
 ## Demo
 
-[Insert a link to a live demo if available]
+[https://qr-code-generator-k7ln.onrender.com/]
+
+
+4. **File Structure:**
+  
+qr-code-generator/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── css/
+│   │       └── qr.css
+│   ├── App.js
+│   ├── index.js
+│   └── components/
+│       └── QRCODE.js
+└── package.json
+
 
 ## Installation
 
@@ -29,20 +47,21 @@ This is a simple QR Code Generator built with React. The application allows user
     ```bash
     npm start
 
-4. **File Structure:**
-   ```bash
-qr-code-generator/
-│
-├── public/
-│   └── index.html
-├── src/
-│   ├── assets/
-│   │   └── css/
-│   │       └── qr.css
-│   ├── App.js
-│   ├── index.js
-│   └── components/
-│       └── QRCODE.js
-└── package.json
+
+
+## Usage
+
+1. Enter the link you want to encode in the **"Enter Link"** input field.
+2. Enter the desired image size (e.g., `150` for a 150x150 image) in the **"Enter Image Size"** input field.
+3. Click the **"Generate QR Code"** button to generate the QR code.
+4. Once the QR code is generated, click the **"Download QR Code"** button to save the image.
+
+## Technologies Used
+
+- React
+- HTML
+- CSS
+- QR Code API ([https://goqr.me/api/](https://goqr.me/api/))
+
 
 
