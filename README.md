@@ -18,4 +18,31 @@ This is a simple QR Code Generator built with React. The application allows user
 
    ```bash
    git clone https://github.com/yourusername/qrcode-generator.git
-   cd qrcode-generator   
+   cd qrcode-generator
+   
+2. **Install dependencies:**   
+
+ ```bash
+ npm install
+
+
+3. **Start the development server:**
+  ```bash
+  npm start
+
+4. **File Structure:**
+qr-code-generator/
+│
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── css/
+│   │       └── qr.css
+│   ├── App.js
+│   ├── index.js
+│   └── components/
+│       └── QRCODE.js
+└── package.json
+
+
